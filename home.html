@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yale University School of Art: Home</title>
+  
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {
+            font-weight: 700;
+            text-align: center;
+            font-family: 'Abril Fatface', cursive;
+            color: #00356B;
+        }
+        .header {
+            background-color: white;
+            height: 100px;
+            text-align: center;
+            color:  #00356B;
+            padding: 5px;
+        }
+
+        .header img {
+            float: left;
+        }
+
+        .header h1 {
+            position: relative;
+        }
+
+        .container div {
+            padding: 1%;
+            box-sizing: border-box;
+            min-height: 500px;
+        }
+        .nav {
+            color: white;
+            background-color: #00356B;
+            width: 15%;
+            float: left;
+            padding: 5px;
+            border: 1px solid white;
+        }
+
+        .aside {
+            background-color: #00356B;
+            width: 20%;
+            float: right;
+            padding: 5px;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+        }
+
+        .main {
+            background-color: #00356B;
+            width: 65%;
+            float: left;
+            text-align: center;
+            border: 1px solid white;
+            color: white;
+        }
+
+        .footer {
+            clear: both;
+            background-color: ;
+            text-align: center;
+            height: 50px;
+            padding-top: 10px;
+            box-sizing: border-box;
+            color: #00356B;
+        }
+
+        ul li {
+            padding: 5px;
+            list-style-type: none;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav a:link {color: white;}
+        .nav a:visited {color: lightgrey;}
+        .nav a:hover {color: skyblue;}
+        .nav a:active {color: skyblue;}
+
+        .aside a:link {color: white;}
+        .aside a:visited {color: lightgrey;}
+        .aside a:hover {color: skyblue;}
+        .aside a:active {color: skyblue;}
+
+        #logo {
+            position: absolute;
+            z-index: 2;
+            top: 1%;
+            left: 2%;
+        }
+
+        .search {
+            position: absolute;
+            top: 2%;
+            right: 6%;
+            border: 1px solid #00356B;
+            font-size: 15px;
+        }
+
+        .submit {
+            position: absolute;
+            top: 2%;
+            right: 1%;
+            background-color: #00356B;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+
+    <img src="images/logo.png" width="125" height="125" id="logo">
+    <h1><em>Yale University School of Art</em></h1>
+
+    <div>
+        <form>
+            <input type="text" name="search" placeholder="Search..." class="search">
+            <input type="submit" name="submit" class="submit">
+        </form>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="nav">
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Student Services</a></li>
+            <li><a href="">Financial Aid</a></li>
+            <li><a href="">Admissions</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Additional Info</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+    </div>
+    <div class="main">
+        <h2>Welcome to the official homepage of the University of Yale School of Art.</h2>
+        <p>
+            On this website you will be able to find important information regarding the School of Art.
+            For more detailed information, please see the 'About' section.
+        </p>
+    </div>
+    <div class="aside">
+
+        <h2><u>Information</u></h2>
+        <h4><a href="">Annie Leibovit Photography Series</a></h4> <hr>
+        <h4><a href="">Richard Benson</a></h4> <hr>
+        <h4><a href="">Erwin Hauer</a></h4> <hr>
+        <h4><a href="">If a calendar is added, it should go here.</a></h4>
+
+    </div>
+</div>
+<div class="footer">
+    &copy; Yale Univeristy. All Rights Reserved.
+</div>
+</body>
+</html>

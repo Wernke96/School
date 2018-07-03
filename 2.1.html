@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>2.1.html</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <script type="text/javascript">
+     function validateForm( ){
+         
+        if(document.forms[0].first.value == ""){
+            alert("please enter");
+            return false;
+        }
+         if(document.forms[0].last.value == ""){
+            alert("please enter");
+             return false;
+         }
+          if (document.forms[0].age.value == ""){
+                window.alert("plese enter information for age");
+                return false;
+                }
+             if (document.forms[0].sex.value == ""){
+                window.alert("plese enter information");
+                 return false;
+                }
+            if (document.forms[0].age.value < 18 && document.getElementById("age").value > 30  ){
+                window.alert("Must between the age of 18 and 30")
+                return false;
+            }
+     }
+       
+            
+             
+        
+</script>
+    <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return validateForm( );"><table>
+
+<tr><td>Enter first name</td><td><input type="text" name="first" /></td></tr>
+<tr><td>Enter last name</td><td><input type="text" name="last" /></td></tr>
+<tr><td>Enter your age</td><td><input type="text" name="age" size=5 /></td></tr>
+<tr><td>Enter your sex</td><td><input type="text" name="sex" size=2 /></td></tr>
+<tr><td>Enter your favorite color</td><td><input type="text" name="color" /></td></tr>
+<tr><td><input type="submit" /></td></tr>
+</table></form>
+
+
+</body>
+</html>
